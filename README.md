@@ -40,4 +40,4 @@ First subnet Rang 10.0.1.0/24
 
 Second subnet Rang 10.0.2.0/24
 
-![image alt]()
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/e9bee5061e63dd323af91a80fea5aed88445c2a7/img/Create%20Public%20Subnets.png)
