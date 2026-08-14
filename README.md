@@ -180,24 +180,25 @@ Create SG
 
 Add Rules
 
-Type	    Port      Source
 HTTP	    80	      Anywhere
 HTTPS	    443	      Anywhere
 SSH	      22	      Anywhere
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/e399b3bbf3e527d883e5fb4a85ef800fe4eff70d/img/Create%20Web%20Security%20Group.png)
 
-Create App Security Group
+ Create App Security Group
 
-Purpose
+ Purpose
 
-Allows traffic only from web server.
+ Allows traffic only from web server.
 
-Add Rule
+ Add Rule
 
-Type	   Port	      Source
+ Type:-	TCP   	      
 
-TCP  	   8080	      Web-SG
+ Port :-   8080	 
+ 
+ Source:-  Web-SG
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/27d575d73649d208feceb7bf071d280b31ad6ebc/img/Create%20App%20Security%20Group.png)
 
@@ -209,9 +210,11 @@ Only app server accesses DB.
 
 Add Rule
 
-Type	  Port	  Source
+Type:-	MySQL    
 
-MySQL	  3306	  App-SG
+Port:- 3306	  
+
+Source:- App-SG
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/b257a203f1668b5911ca7d58fa6646ea25b96d1c/img/Create%20DB%20Security%20Group.png)
 
@@ -277,13 +280,11 @@ Place inside:
 
 Configuration
 
-Option	  Value
-	
-Subnet   	Private-App-1
+Subnet :- 	Private-App-1
 
-Public    IP	Disable
+Public IP:-	Disable
 
-SG	      App-SG
+SG:-      App-SG
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/e1682b8c734214f3c8ac8fccc5cb96f3e131b011/img/Launch%20App%20EC2%20for%20DEPLOY%20APPLICATION%20LAYER.png)
 
@@ -342,11 +343,9 @@ Backend Running
 
 Its not show output on this new terminal open new terminal
 
-Terminal	     Purpose
+Terminal 1:-	   Run backend
 
-Terminal 1	   Run backend
-
-Terminal 2	   Test backend
+Terminal 2:-	   Test backend
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/dcce7e8f8802852513477cb313b13828ec7b4962/img/open%20new%20terminal%20%20.png)
 
@@ -354,13 +353,11 @@ Terminal 2	   Test backend
 
 Choose
 
-Option	                Value
+Engine :- MySQL
 
-Engine	                MySQL
+Public Access:-No
 
-Public Access	        No
-
-Security Group	        DB-SG
+Security Group:-DB-SG
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/710a4fef966055a5dd35a1c7d6027cda22e65c4d/img/DATABASE%20LAYER%20Create%20RDS.png)
 
