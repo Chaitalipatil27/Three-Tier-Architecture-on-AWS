@@ -41,3 +41,19 @@ First subnet Rang 10.0.1.0/24
 Second subnet Rang 10.0.2.0/24
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/e9bee5061e63dd323af91a80fea5aed88445c2a7/img/Create%20Public%20Subnets.png)
+
+STEP 3 — Create Private App Subnets
+
+Why?
+
+Application servers should remain private.
+
+Create two private subnet
+
+With CIDR Rang
+
+First subnet Rang 10.0.3.0/24
+
+Second subnet Rang 10.0.4.0/24
+
+![image alt]()
