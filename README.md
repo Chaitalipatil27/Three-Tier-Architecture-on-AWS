@@ -84,7 +84,14 @@ Select:
 
 My-vpc-01
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/1ef3b15e0849e3f49319f2c9481f939180b0ddd1/img/Attach%20IGW%20to%20VPC.png)
+
+# STEP 6 — Create Public Route Table
+
+Route table controls traffic
+
 ![image alt]()
+
 
 
 
