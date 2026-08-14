@@ -116,7 +116,16 @@ Select:
 
 •	Public-Subnet-2
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/8e69a29a9972c5d6e9cd275d14dfec6915b39223/img/Associate%20Public%20Subnets.png)
+
+Now public subnets can access internet.
+
+# STEP 7 — Create Elastic IP
+
+NAT Gateway requires Elastic IP.
+
 ![image alt]()
+
 
 
 
