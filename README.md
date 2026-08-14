@@ -136,7 +136,58 @@ Private servers need internet for:
 
 But should remain private
 
-![image alt]()
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/08807e029b1e7d4a894565ff5b2452a3ddc2a6da/img/Create%20NAT%20Gateway.png)
+
+# STEP 9 — Create Private Route Table
+
+Private subnet traffic should go through NAT.
+
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/c7780f533d87c04ad02d2b02083a6c547852bdfb/img/Create%20Private%20Route%20Table.png)
+
+Add Route
+
+Destination	Target
+
+0.0.0.0/0      	NAT Gateway
+
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/35b2a16b8b708b0f89526637ce684856a1fe33f3/img/Add%20NAT%20Route%20.png)
+
+Associate Private Subnets
+
+Select:
+
+•	Private-App-1 
+
+•	Private-App-2 
+
+•	Private-DB-1 
+
+•	Private-DB-2
+
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/a9c45e3276caab88cb6784ae2d85fe94c3804259/img/Associate%20Private%20Subnets.png)
+
+# STEP 10 — Create Web Security Group
+
+Purpose
+
+Allows:
+
+•	User traffic 
+
+•	SSH
+
+Create SG
+
+Add Rules
+
+Type	    Port      Source
+HTTP	    80	      Anywhere
+HTTPS	    443	      Anywhere
+SSH	      22	      Anywhere
+
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/e399b3bbf3e527d883e5fb4a85ef800fe4eff70d/img/Create%20Web%20Security%20Group.png)
+
+
 
 
 
