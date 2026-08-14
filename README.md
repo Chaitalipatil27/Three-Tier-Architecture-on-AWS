@@ -418,11 +418,11 @@ Target group
 
 Configuration
 
-# Option     	Value
+ Option     	 Value
 
- Type	      Internet-facing
+ Type	         Internet-facing
 
- Subnets	    Public Subnet
+ Subnets	     Public Subnet
 
  Attach:
 
