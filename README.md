@@ -124,7 +124,20 @@ Now public subnets can access internet.
 
 NAT Gateway requires Elastic IP.
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/ff58bbaafeffd33ae4c32267d459ddceb7febebd/img/Create%20Elastic%20IP.png)
+
+# STEP 8 — Create NAT Gateway
+
+Private servers need internet for:
+
+•	Updates 
+
+•	Package installs 
+
+But should remain private
+
 ![image alt]()
+
 
 
 
