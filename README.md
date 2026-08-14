@@ -195,9 +195,9 @@ Allows traffic only from web server.
 
 Add Rule
 
-Type	 Port	  Source
+Type	   Port	      Source
 
-TCP  	8080	  Web-SG
+TCP  	   8080	      Web-SG
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/27d575d73649d208feceb7bf071d280b31ad6ebc/img/Create%20App%20Security%20Group.png)
 
@@ -354,13 +354,13 @@ Terminal 2	   Test backend
 
 Choose
 
-# Option	    # Value
+Option	                Value
 
-Engine	        MySQL
+Engine	                MySQL
 
-Public Access	  No
+Public Access	        No
 
-Security        Group	DB-SG
+Security Group	        DB-SG
 
 ![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/710a4fef966055a5dd35a1c7d6027cda22e65c4d/img/DATABASE%20LAYER%20Create%20RDS.png)
 
