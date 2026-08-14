@@ -104,6 +104,18 @@ Select:
 
 ThreeTier-IGW
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/6c71f1265c36973c0c4c3f20700736525b7f70ce/img/Add%20Internet%20Route.png)
+
+Associate Public Subnets
+
+Subnet Associations → Edit
+
+Select:
+
+•	Public-Subnet-1 
+
+•	Public-Subnet-2
+
 ![image alt]()
 
 
