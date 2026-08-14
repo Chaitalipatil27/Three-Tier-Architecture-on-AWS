@@ -64,5 +64,16 @@ First subnet Rang 10.0.5.0/24
 
 Second subnet Rang 10.0.6.0/24
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/59b4a068c583aed87444b3193d37cedbfe440b72/img/Create%20Private%20DB%20Subnets.png)
+
+# STEP 5 — Create Internet Gateway
+
+Internet Gateway allows internet communication.
+
+Without IGW:
+
+•	Public EC2 cannot access internet.
+
 ![image alt]()
+
 
