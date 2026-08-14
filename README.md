@@ -90,6 +90,20 @@ My-vpc-01
 
 Route table controls traffic
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/e447c47041b7fcb9b0cdd2f6502e112fab8b969e/img/Create%20Public%20Route%20Table.png)
+
+Add Internet Route
+
+Edit Routes → Add Route
+
+Destination	Target
+
+0.0.0.0/0      	Internet Gateway
+
+Select:
+
+ThreeTier-IGW
+
 ![image alt]()
 
 
