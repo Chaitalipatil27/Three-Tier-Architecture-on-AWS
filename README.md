@@ -74,6 +74,17 @@ Without IGW:
 
 •	Public EC2 cannot access internet.
 
+![image alt](https://github.com/Chaitalipatil27/Three-Tier-Architecture-on-AWS/blob/b32c00d5985bf04d2fc7ae6ad1fcbc8fd421e0af/img/Create%20Internet%20Gateway.png)
+
+Attach IGW to VPC
+
+Actions → Attach to VPC
+
+Select:
+
+My-vpc-01
+
 ![image alt]()
+
 
 
